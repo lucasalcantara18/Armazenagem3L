@@ -30,6 +30,20 @@ const useStyles = makeStyles((theme: Theme) => ({
   pointer: {
     cursor: 'default',
   },
+  textContainer: {
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
+  textContainerWidthMax: {
+    width: '70rem',
+  },
+  textContainerWidthMin: {
+    width: '64rem',
+  },
+  noMaxWidth: {
+    maxWidth: 'none',
+  },
 }));
 
 export default useStyles;

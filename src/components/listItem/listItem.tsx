@@ -31,7 +31,10 @@ const ItemLista = ({ titulo, id }: IPropsItemLista) => {
   return (
     <ListItem button className={classes.root} onClick={handleClickDetalhe}>
       <ListItemText>
-        <Typography variant="h5"> {titulo} </Typography>
+        <Typography variant="h5" className={classes.textContainer}>
+          {' '}
+          {titulo}{' '}
+        </Typography>
       </ListItemText>
       <ListItemSecondaryAction>
         <Tooltip title={<Typography variant="subtitle1"> Delete </Typography>}>

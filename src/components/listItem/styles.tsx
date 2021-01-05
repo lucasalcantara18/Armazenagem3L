@@ -9,6 +9,11 @@ const useStyles = makeStyles((theme: Theme) => ({
   deleteButton: {
     color: COLORS.red,
   },
+  textContainer: {
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+  },
 }));
 
 export default useStyles;
